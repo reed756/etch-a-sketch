@@ -1,0 +1,16 @@
+/* Format grid items */
+.grid-item {
+    border: 1px solid;
+    border-color: black;
+}
+/* Format grid container */
+#container {
+    border: 1px solid;
+    border-color: black;
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
